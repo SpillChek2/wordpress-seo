@@ -37,7 +37,7 @@ class WPSEO_Link_Column_Count {
 			return $this->count[ $post_id ][ $target_field ];
 		}
 
-		return null;
+		return 0;
 	}
 
 	/**
